@@ -742,7 +742,6 @@
           <a href="https://github.com/Hussien-55" id="githubLink">GitHub ↗</a>
           <a href="assets/Hussien_Hassan_CV.pdf" id="cvBtnContact">Download Resume ↓</a>
         </div>
-        <div class="placeholder-note">Email, LinkedIn, GitHub, and Resume links above are placeholders — replace with your real details.</div>
       </div>
     </div>
   </section>
@@ -930,25 +929,6 @@
   resize();
   requestAnimationFrame(draw);
 
-  // ---- Placeholder CV / contact buttons ----
-  ['cvBtnNav','cvBtnHero','cvBtnContact'].forEach(id=>{
-    const el = document.getElementById(id);
-    if(el){
-      el.addEventListener('click', (e)=>{
-        e.preventDefault();
-        alert('Add your resume file link here (placeholder).');
-      });
-    }
-  });
-  ['linkedinLink','githubLink'].forEach(id=>{
-    const el = document.getElementById(id);
-    if(el){
-      el.addEventListener('click', (e)=>{
-        e.preventDefault();
-        alert('Add your real profile link here (placeholder).');
-      });
-    }
-  });
 </script>
 
 </body>
